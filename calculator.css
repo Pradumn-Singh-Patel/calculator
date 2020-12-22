@@ -1,0 +1,53 @@
+.cls{
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-color: whitesmoke;
+    border: 0px;
+    font-size: 40px;
+}
+.key{
+    height: 500px;
+    width:  400px;
+    background-color: white;
+}
+.out{
+    width: 394px;
+    height: 200px;
+    background-color: black;
+    color: white;  
+    font-size: 40px;
+}
+body{
+    background-color: palegreen;
+}
+.opt{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-color: whitesmoke;
+    border: 0px;
+    font-size: 40px;
+    color: orangered;   
+}
+.btn,.opt:active{
+    transform: scale(1);
+}
+.btn,.opt:hover{
+    cursor: pointer;
+}
+.optt{
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    background-color: white;
+    border-color: whitesmoke;
+    border: 0px;
+    font-size: 40px;
+    color: orangered;
+}
