@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CALCI</title>
-  <link rel="stylesheet" href="calculator.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div class="cls">
-<form name="form" class="f"> 
-  <input class="out" type="text" name="ans">
-  <div class="key">
-<!-- Creating buttons for calculator -->
 
-  <input type="button" class="btn"  value="AC" onclick="form.ans.value='' " >
-  <input class="btn" type="button" value="DEL" onclick="form.ans.value = form.ans.value.substr(0,form.ans.value.length-1)">
-  <input type="button" class="opt"  value="/" onclick="form.ans.value+='/' " >
-  <input class="optt"  type="button" value="*" onclick="form.ans.value+='*' " >
-  <input class="btn"  type="button" value="7" onclick="form.ans.value+='7' " >
-  <input type="button" class="btn" value="8" onclick="form.ans.value+='8' " >
-  <input type="button" class="btn"  value="9" onclick="form.ans.value+='9' " >
-  <input type="button" class="opt"  value="-" onclick="form.ans.value+='-' " >
-  <input type="button" class="btn"  value="4" onclick="form.ans.value+='4' " >
-  <input class="btn"  type="button" value="5" onclick="form.ans.value+='5' " >
-  <input class="btn"  type="button" value="6" onclick="form.ans.value+='6' " >
-  <input type="button" class="opt"  value="+" onclick="form.ans.value+='+' " >
-  <input type="button" class="btn"  value="1" onclick="form.ans.value+='1' " >
-  <input type="button" class="btn"  value="2" onclick="form.ans.value+='2' " >
-  <input type="button" class="btn"  value="3" onclick="form.ans.value+='3' " >
-  <input type="button" class="opt"  value="=" onclick="form.ans.value=eval(form.ans.value) " >
-  <input type="button" class="btn"  value="00" onclick="form.ans.value+='00' " >
-  <input type="button" class="btn"  value="0" onclick="form.ans.value+='0' " >
-  <input type="button" class="btn"  value="." onclick="form.ans.value+='.' " >
-  
+<body>
+  <div class="cls">
+    <div class="heading">CALCULATOR</div>
+    <form name="form" class="container">
+      <input class="out" type="text" name="ans">
+      <div class="key">
+        <!-- Creating buttons for calculator -->
+
+        <input type="button" class="btn"          value="AC"  onclick="form.ans.value='' ">
+        <input type="button" class="btn"          value="DEL" onclick="form.ans.value = form.ans.value.substr(0,form.ans.value.length-1)">
+        <input type="button" class="operator_btn" value="/"   onclick="form.ans.value+='/' ">
+        <input type="button" class="star_btn"     value="*"   onclick="form.ans.value+='*' ">
+        <input type="button" class="btn"          value="7"   onclick="form.ans.value+='7' ">
+        <input type="button" class="btn"          value="8"   onclick="form.ans.value+='8' ">
+        <input type="button" class="btn"          value="9"   onclick="form.ans.value+='9' ">
+        <input type="button" class="operator_btn" value="-"   onclick="form.ans.value+='-' ">
+        <input type="button" class="btn"          value="4"   onclick="form.ans.value+='4' ">
+        <input type="button" class="btn"          value="5"   onclick="form.ans.value+='5' ">
+        <input type="button" class="btn"          value="6"   onclick="form.ans.value+='6' ">
+        <input type="button" class="operator_btn" value="+"   onclick="form.ans.value+='+' ">
+        <input type="button" class="btn"          value="1"   onclick="form.ans.value+='1' ">
+        <input type="button" class="btn"          value="2"   onclick="form.ans.value+='2' ">
+        <input type="button" class="btn"          value="3"   onclick="form.ans.value+='3' ">
+        <input type="button" class="operator_btn" value="="   onclick="form.ans.value=eval(form.ans.value) ">
+        <input type="button" class="btn"          value="00"  onclick="form.ans.value+='00' ">
+        <input type="button" class="btn"          value="0"   onclick="form.ans.value+='0' ">
+
+      </div>
   </div>
- </div>
-<form>
+  <form>
 </body>
+
 </html>

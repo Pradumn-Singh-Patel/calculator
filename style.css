@@ -3,6 +3,7 @@
     margin-left: 40%;
     margin-top: 5%;
 }
+
 .btn{
     height: 100px;
     width: 100px;
@@ -11,11 +12,13 @@
     border: 0px;
     font-size: 40px;
 }
+
 .key{
     height: 500px;
     width:  400px;
     background-color: white;
 }
+
 .out{
     width: 394px;
     height: 200px;
@@ -23,10 +26,12 @@
     color: white;  
     font-size: 40px;
 }
+
 body{
     background-color: palegreen;
 }
-.opt{
+
+.operator_btn{
     height: 70px;
     width: 70px;
     background-color: white;
@@ -35,13 +40,16 @@ body{
     font-size: 40px;
     color: orangered;   
 }
-.btn,.opt:active{
+
+.btn,.operator_btn:active{
     transform: scale(1);
 }
-.btn,.opt:hover{
+
+.btn,.operator_btn:hover{
     cursor: pointer;
 }
-.optt{
+
+.star_btn{
     height: 70px;
     width: 70px;
     margin-left: 30px;
@@ -50,4 +58,40 @@ body{
     border: 0px;
     font-size: 40px;
     color: orangered;
+}
+
+.heading{
+    font-size: 400%;
+    font-weight: 600;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+    text-shadow: 3px 3px #ff3300da;
+    
+}
+
+.container{
+    position: absolute;
+    left: 42%;
+    top: 15%;
+}
+
+ /* for small screen */
+
+@media (max-width: 500px){
+
+.container{
+    position: absolute;
+    left: 7%;
+    top: 25%;
+}
+
+.heading{
+    font-size: 400%;
+    font-weight: 600;
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+
 }
